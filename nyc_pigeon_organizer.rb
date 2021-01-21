@@ -12,10 +12,11 @@ def nyc_pigeon_organizer(data)
       final_hash[name] = {}
       
         
-      binding.pry 
+      
       end # end for if !final
+    binding.pry  
     end
-    final_hash[key]
+    
   end
   end 
    final_hash
