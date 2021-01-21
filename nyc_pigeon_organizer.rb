@@ -2,11 +2,13 @@ require "pry"
 
 def nyc_pigeon_organizer(data)
  
- data.each_with_object({}) do |(key, value), pigeon_data|
+ data.each_with_object({}) do |(key, value), array_name|
     
-   pigeon_data[key] = value.each
+   value.each do | inner_key, names|
+     binding.pry
+     names
+     end 
     
-  
    binding.pry
    
    end
