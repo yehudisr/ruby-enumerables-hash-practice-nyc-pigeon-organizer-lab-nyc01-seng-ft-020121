@@ -4,13 +4,13 @@ def nyc_pigeon_organizer(data)
  
  data.each_with_object({}) do |(key, value), final_hash|
   
-   value.collect do | inner_key, names|
-     names
-    binding.pry 
+   value.each do | inner_key, names|
+     names.each do |name|
+       binding.pry 
+     end
      end 
-   final_hash[names]
-  binding.pry
-    puts "hello"
+   final_hash[name]
+ 
    end
   
 end
