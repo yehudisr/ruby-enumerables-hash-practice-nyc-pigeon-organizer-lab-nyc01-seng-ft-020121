@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
  data.each_with_object({}) do |(key, value), final_hash|
     
    value.each do | inner_key, names|
-     names
+     new_key = names
     binding.pry 
      end 
    final_hash[names]
