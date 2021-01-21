@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
     
    value.each do | inner_key, names|
      names
+    binding.pry 
      end 
    final_hash[names]
   binding.pry
