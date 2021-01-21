@@ -6,10 +6,10 @@ def nyc_pigeon_organizer(data)
     
     value.each_value {|new_value| new_value.each} 
     
-   
+   pigeon_data[key] = new_value
   
    binding.pry
    
    end
-  pigeon_data[key] = new_value
+  
 end
