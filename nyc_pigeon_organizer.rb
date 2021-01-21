@@ -13,12 +13,11 @@ def nyc_pigeon_organizer(data)
       
         
       binding.pry 
+      end # end for if !final
     end
-     end
-     end
-     end 
+  end
+  end 
    final_hash
    end
 
-  
 end
