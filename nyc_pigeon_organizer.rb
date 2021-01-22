@@ -2,7 +2,7 @@ require "pry"
 
 def nyc_pigeon_organizer(data)
  final_hash = {}
- data.each do |(key, value), final_hash|
+ data.each do |key, value|
   
    value.each do |inner_key, names|
      
@@ -10,12 +10,11 @@ def nyc_pigeon_organizer(data)
       
       if !final_hash[name]
       final_hash[name] = {}
-      end # end for if !final
+      end 
        
-        if !final_hash[name][key]
-        final_hash[name][key] = []  
-         
-        end
+      if !final_hash[name][key]
+      final_hash[name][key] = []  
+      end
      
     end
     binding.pry
