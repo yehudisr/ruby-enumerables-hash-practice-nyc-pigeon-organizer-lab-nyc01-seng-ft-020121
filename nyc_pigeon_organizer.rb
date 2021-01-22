@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
        
       if !final_hash[name][key]
       !final_hash[name][key] = [] 
-      binding.pry
+      #binding.pry
       end
      
       final_hash[name][key] << inner_key.to_s
